@@ -27,5 +27,6 @@ int main() {
         y[1] = x;
     }
     cout << "..." << endl << "y_" << N <<" = " << x << endl;
+    fout.close();
     return 0;
 }
